@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="map"></div>
+    
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="scripts.js"></script>
+    <div class="sidebar">
+        <a href="index.html">Menu</a>
+        <a href="cameras/camera_one.html">Kamera pierwsza</a>
+        <a href="cameras/camera_two.html">Kamera druga</a>
+        <a href="cameras/camera_three.html">Kamera trzecia</a>
+    </div>
+
+    <h2 style="color:white">Instrukcja poniżej</h2>
+    <div class="instruction">
+        <br>I. Na mapie znajdują się wskaźniki, po kliknięciu przedstawiona jest lokalizacja, w której przedstawiono widok z kamery.</br>
+        <br>II. Po kliknięciu w wybrane miejsce pojawia się znacznik a nad nim opcja "zgłoś" - TO DOKONCZ JAK COS</br>
+        <br>III. Po lewej stronie znajduje się zakładka, z której poziomu również można wejść na widok kamer.</br>
+        <br>IV. AI zajmuje się wykrywaniem ognia, z widoku kamer. Jeżeli na kamerze nie ma dymu pokazane jest zielone światło (1), lub jeżeli jest to czerwone światło(2)</br>
+        <hr width="800" color="white"></hr>
+		
+        <div class="light">
+			<div class="zdjecie1">
+				<img src="images/aha.png" width="100" height="100">    
+			<h1>1</h1>
+			</div>
+			<h1>lub</h1>
+			<div class="zdjecie1">
+				<img src="images/aha2.png" width="100" height="100">  
+				<h1>2</h1>
+			</div>
+		  </div>
+    </div>
+</body>
+</html>

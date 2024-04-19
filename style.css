@@ -1,0 +1,60 @@
+.sidebar {
+    position: fixed;
+    left: -190px;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    background-color: rgb(76, 78, 78);
+    color: red;
+    padding: 20px;
+    transition: left 0.3s;
+    z-index: 1;
+}
+.sidebar:hover {
+    left: 0;
+}
+
+.sidebar a {
+    display: block;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-family: sans-serif;
+    text-shadow: 2px 2px 9px wheat;
+    margin-inline: 10px;
+}
+.sidebar a:hover {
+    background-color: rgb(19, 19, 18);
+    border-radius: 5px;
+}
+
+
+#map{
+    margin: auto;
+    width: 1000px;
+    height: 500px;
+    border-style: solid;
+    border-color: wheat;
+    z-index: 0;
+}
+
+body{
+    background-color: rgb(27, 26, 28);
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.light{
+	color: white;
+	margin-top: 2%;
+	margin-left:35%;
+	width: 30%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.instruction{
+    color: wheat;
+
+}
